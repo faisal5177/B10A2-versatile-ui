@@ -1,0 +1,24 @@
+
+
+
+
+/*shared styles*/
+.display-flex{
+    display: flex;
+}
+
+
+.text-gray{
+   color: var(--colloras);
+}
+
+
+:root{
+   --primary-color: #E6533C;
+   --secondary-color: #000000;
+   --collor: #FAFAF9;
+   --drop-shadow: #000000;
+}
+.bg-light{
+   
+}
