@@ -1,24 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
 
+/*Header styler*/
+.header{
+    width: 1440px;
+    height: 715px;
+    margin: 0 auto;
+    margin-left: 7%;
+}
 
 /*shared styles*/
 .display-flex{
     display: flex;
 }
 
-
 .text-gray{
    color: var(--colloras);
 }
-
 
 :root{
    --primary-color: #E6533C;
    --secondary-color: #000000;
    --collor: #FAFAF9;
    --drop-shadow: #000000;
+   --background-color:#303030;
+   --img-back-color:#777777;
 }
-.bg-light{
+.blog{
+    background-color: var(--primary-color);
+    color: var(--collor);
+    border-radius: 46px;
+}
+.navbar {
+    display: flex;
+    font-weight: 20%;
+    border: 2px solid var(--secondary-color);
+    justify-content: space-between;
+    margin-right: 30%;
+    
+}
+
+.barand{
+    font-weight: 800px;
+    font-size: 36px;
+    margin-top: 4%;
+    margin-left: 10%;
+
+}
+nav h3{
+    font-weight: 800px;
+    font-size: 36;
+    color: var(--primary-color);
+}
+.nav-item{ 
+   font-size: 200%;
+
+    
+    
+}
+
+.nav-links{
+    gap: 47px;
+    list-style: none;
+    
+}
+
+.banner-content{
+    width: 599.05;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+.banner-image{
+    align-items: center;
+
+}
+
+.banner-title{
+    font-weight: 400px;
+    font-size: 78px;
+    margin-right: 60%;
+    margin-top: 7%;
+}
+
+.banner-description{
+    font-weight: 400px;
+    font-size: 16px;
+    margin-right: 70%;
+    
+}
+.btn-primary{
+    font-weight: 600px;
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: var(--primary-color);
+    color: var(--collor);
+}
+.btn-secondary{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: var(--secondary-color);
+    color: var(--collor)
+}
+.banner-image{
+    font-weight: 400px;
+    font-size: 16px;
+    margin-left: 40%;
+    margin-top: -40%;
+}
+.item-white{
+   list-style: none;
+   text-align: center;
    
 }
+.item-white-title{
+    font-weight: 116px;
+    font-size: 40px;
+    border-radius: 12px;
+    padding:9px 53px 49px 24px;
+    color: var(--color);
+
+}
+.item-white-description{
+    color: var(--c);
+    font-weight: 146px;
+    font-size: 20px;
+    margin-top: -20%;
+  
+}
+
