@@ -189,6 +189,91 @@ main{
     margin-left: 130%;
     margin-top: -53%;
 }
+.table{
+    background-color: #222222;
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+}
+td, th{
+
+    text-align: left;
+    border: 2px solid #222222;
+   padding: 10px 10px;
+}
+.table-title{
+    font-size: 2.5rem;
+}
+.td{
+    font-size: 1rem;
+    font-weight: 400px;
+}
+.th{
+    font-size: 1rem;
+    font-weight: 500px;
+}
+.tabel-description{
+    width: 577px;
+    margin-left: 38%;
+    margin-top: -29%;
+}
+.tabel-description-title{
+    font-size: 1.5rem;
+    margin-left: 8%;
+}
+.tabel-description-content{
+    font-weight: 400px;
+    font-size: 1rem;
+    margin-left: 8%;
+}
+.tabel-description-item{
+    width: 577px;
+    height: 48px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 40px;
+    
+}
+.item{
+    width: 282.5px;
+    height: 48px;
+    border: 2px solid #222222;
+    padding:12px 40px ;
+    border-radius: 8px;
+    text-align: left;
+    margin-top: 12px;
+
+}
+.item-title{
+    width: 577px;
+    height: 48px;
+}
+.Calculate{
+    border: 2px solid #222222;
+    width: 577px;
+    height: 48px;
+    font-size: 1rem;
+    font-weight: 400px;
+    padding:20px 12px ;
+    border-radius: 8px;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+.Calculate-btn{
+    font-weight: 600px;
+    font-size: 1.2rem;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    margin-left: 7%;
+}
+.background-color{
+    background-color: #222222;
+}
 
 /*responsive media query*/
 @media screen and (max-width: 576px) {
