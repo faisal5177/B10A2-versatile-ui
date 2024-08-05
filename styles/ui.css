@@ -51,6 +51,7 @@ main{
 .blog{
     font-weight: 600px;
     font-size: 1.2rem;
+    padding: 4px 20px;
     background-color: #E6533C;
     color: #FFFFFF;
     padding: 8px 20px;
@@ -62,6 +63,10 @@ main{
     margin:0 auto;
 }
 /*banner related styles*/
+.banner{
+    width:100%;
+
+}
 .banner-content{
     max-width: 40%; 
     margin-bottom: 50px;
@@ -78,6 +83,7 @@ main{
 .btn-primary{
     font-weight: 600px;
     font-size: 1.2rem;
+    padding: 16px 40px;
     border-radius: 42px;
     background-color: #E6533C;
     color: #FFFFFF;
@@ -89,6 +95,7 @@ main{
     font-size: 1.2rem;
     border-radius: 42px;
     padding: 16px 40px;
+    background-color: #000000;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.25);
 }
@@ -126,14 +133,77 @@ main{
 .feature-title{
     font-weight: 600px;
     font-size:1.2rem ;
+    text-align: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-right: 5%;
+
 }
 .feature-description{
     font-weight: 400px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+.section{
+    width: 1060px;
+    height: 371px;
+    background-color: #222222;  
+}
+.section-content{
+    border: 2px solid #222222;
+    height: 290px;
+    width: 443px;
+    list-style: none;
+    margin-right: 60%;
+    
+}
+.section-title{
+    font-weight: 600px;
+    font-size: 1.2rem;
+    margin-right: 20%;
+    margin-left: 10%;
+   
+    
+}
+.section-description{
+    font-weight: 400px;
     font-size: 1rem;
 }
- 
+.section-btn{
+    font-weight: 600px;
+    font-size: 1.2rem;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding: 16px 40px;
+}
+.section-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin-left: 130%;
+    margin-top: -53%;
+}
+
 /*responsive media query*/
 @media screen and (max-width: 576px) {
     .navber, .banner-img, .teams-img, .nav-links{
         flex-direction: column;
+}
+
+.our-features{
+    flex-direction: column;
+}
+.feature-img{
+    grid-template-columns: repeat(1, 1fr);
+}
+.hide{
+    display: none;
+}
+
 }
