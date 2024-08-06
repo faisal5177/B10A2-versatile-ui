@@ -7,10 +7,12 @@
   font-weight: 400px;
   font-style: normal;
 }
+
 /*shared styles*/
 .display-flex{
     display: flex;
 }
+
 /*navber related styles*/
 .navber{
     justify-content: space-between;
@@ -62,6 +64,7 @@ main{
     max-width: 1440px;
     margin:0 auto;
 }
+
 /*banner related styles*/
 .banner{
     width:100%;
@@ -75,10 +78,32 @@ main{
 .banner-title{
     font-size: 5.8rem;
 }
+
 .banner-description {
     font-weight: 400px;
     font-size: 1.2rem;
     margin-top: 28px;
+}
+.direct{
+    filter: drop-shadow(rgba(119, 119, 119, 0.56));
+    border: 2px solid #222222
+    border-width: 30px;
+    background-color: rgba(119, 119, 119, 0.56);
+    width: 206px;
+    height: 100px;
+    border-radius: 12px;
+    list-style: none;
+    text-align: center;
+    margin-left: 150%;
+    font-size: 1.5rem;
+}
+
+.
+
+.direct-description{
+    font-weight: 400px;
+    font-size: 1rem;
+    margin-left: 10%;
 }
 .btn-primary{
     font-weight: 600px;
@@ -99,6 +124,16 @@ main{
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.25);
 }
+.extra{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+   background-color:#E6533C;
+   color: #E6533C;
+    border-radius: 50px;
+    margin-top: 6px;
+
+}
 .banneer-img{
     width: 349px;
     height: 580px;
@@ -108,19 +143,22 @@ main{
 .banner-img{
     width: 100%;
 }
+
 /*teams related styles*/
 .teams{
     text-align: center;
     margin-top: 100px;
     background-color: #000000;
 }
-.teams-title{
+
+.teams-title {
     font-size: 3rem;
 }
 .teams-description{
     font-weight: 400px;
     font-size: 1rem;
 }
+
 /*feature related styles*/
 .feature{
     list-style: none;
@@ -148,8 +186,9 @@ main{
     align-items: center;
     margin-right: 5%;
     margin-left: 5%;
-    
+
 }
+
 /*section related styles*/
 .section{
     width: 1060px;
@@ -192,6 +231,7 @@ main{
     margin-left: 130%;
     margin-top: -53%;
 }
+
 /*table related styles */
 .Calculate-table{
     background-color: #222222;
@@ -207,14 +247,17 @@ td, th{
 }
 .Calculate-table-title{
     font-size: 2.5rem;
+    margin-top: 5%;
 }
 .td{
     font-size: 1rem;
     font-weight: 400px;
+    margin-top: 5%;
 }
 .th{
     font-size: 1rem;
     font-weight: 500px;
+    margin-top: 5%;
 }
 .Calculate-tabel-description{
     width: 577px;
@@ -281,6 +324,7 @@ td, th{
 .Calculate{
     box-shadow: rgba(0, 0, 0, 0.2);
 }
+
 /*ourteam related styles*/
 .container{
     width: 1060px;
@@ -317,6 +361,94 @@ td, th{
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
+}
+
+/*footer styles*/
+.footer{
+    width: 100%;
+    display: flex;
+    width: 1440px;
+    height: 489px;
+    background-color: #222222;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 88px;
+    align-items: center;
+    margin-top: 88px;
+}.primary {
+    width: 181px;
+    height: 249px;
+    list-style: none;
+    margin-left: 40%;
+    margin-top: -18%;
+    height: 100%;
+    width: 100%;
+}
+
+.primary-title {
+    font-weight: 700px;
+    font-size: 2rem;
+}
+
+.primary-description {
+    font-weight: 400px;
+    font-size: 14px;
+
+}
+
+.secondary {
+    width: 181px;
+    height: 249px;
+    list-style: none;
+    margin-left: 60%;
+    margin-top: -25%
+
+}
+
+.secondary-title {
+    font-weight: 700px;
+    font-size: 2rem;
+}
+
+.secondary-description {
+    font-weight: 400px;
+    font-size: 14px;
+  
+
+}
+
+.central {
+    width: 1059px;
+    height: 249px;
+    justify-content: space-around;
+    margin: 66px 190px 174px 190px;
+    margin-top: 66px;
+    align-items: center;
+
+}
+
+.central-title {
+    font-weight: 800px;
+    font-size: 4.3rem;
+    color: #E6533C;
+}
+
+.central-description {
+    text-align: left;
+    font-weight: 400px;
+    font-size: 14px;
+    margin-right: 75%;
+    margin-top: 20px;
+}
+
+.content{
+    font-weight: 400px;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 35%;
+}
+.colors{
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 /*responsive media query*/
