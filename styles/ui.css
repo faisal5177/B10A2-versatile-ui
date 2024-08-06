@@ -108,6 +108,7 @@ main{
 .banner-img{
     width: 100%;
 }
+/*teams related styles*/
 .teams{
     text-align: center;
     margin-top: 100px;
@@ -120,6 +121,7 @@ main{
     font-weight: 400px;
     font-size: 1rem;
 }
+/*feature related styles*/
 .feature{
     list-style: none;
 }
@@ -148,6 +150,7 @@ main{
     margin-left: 5%;
     
 }
+/*section related styles*/
 .section{
     width: 1060px;
     height: 371px;
@@ -189,6 +192,7 @@ main{
     margin-left: 130%;
     margin-top: -53%;
 }
+/*table related styles */
 .Calculate-table{
     background-color: #222222;
     border-collapse: collapse;
@@ -276,6 +280,39 @@ td, th{
 }
 .Calculate{
     box-shadow: rgba(0, 0, 0, 0.2);
+}
+/*ourteam related styles*/
+.container{
+    width: 1060px;
+    height: 782px;
+  text-align: center;
+  align-items: center ;
+}
+
+.container-title{
+    font-size: 3rem;
+}
+.container-description{
+    font-weight: 400px;
+    font-size: 1rem;
+}
+.container-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,272px);
+    gap: 20px;
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+}
+.box{
+   
+}
+
+#box-1, #box-2, #box-3, #box-4, #box-5, #box-6{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
 }
 
 /*responsive media query*/
