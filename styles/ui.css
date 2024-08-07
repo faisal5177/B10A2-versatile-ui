@@ -15,6 +15,8 @@
 
 /*navber related styles*/
 .navber{
+    max-width: 1060px;
+    max-height: 581px;
     justify-content: space-between;
     align-items: center;
     margin-top: 53px;
@@ -84,26 +86,72 @@ main{
     font-size: 1.2rem;
     margin-top: 28px;
 }
+
+.advertise{
+    text-align: left;
+    max-width: 193px;
+    max-height: 111px;
+    font-size: 2.1rem;
+    border: 2px solid #686868;
+    margin-left: 200%;
+    background-color: #8a8a8a;
+    margin-top: -190%;
+    margin-right: 240%;
+}
+.advertise-title{
+    width: 116px;
+    height: 111px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    margin-top: -180%;
+    margin-right: 270%;
+    border: 2px solid #686868;
+    width: 190px;
+    height: 130px;
+    background-color: #686868;
+    margin-left: 70%;
+    border-radius: 12px;
+    text-align: left;
+    gap: 10px;
+}
+.advertise-description{
+    display: flex;
+    border: 2px solid #000000;
+    font-weight: 400px;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 223%;
+    background-color: #000000;
+    width: 200px;
+    height: 300px;
+    margin-top: -43%;
+    
+}
 .direct{
+    justify-content: space-between;
     filter: drop-shadow(rgba(119, 119, 119, 0.56));
     border: 2px solid #222222
-    border-width: 30px;
+    border-width: 40px;
     background-color: rgba(119, 119, 119, 0.56);
     width: 206px;
     height: 100px;
     border-radius: 12px;
     list-style: none;
     text-align: center;
-    margin-left: 150%;
+    margin-left: 155%;
     font-size: 1.5rem;
+    margin-top:-330%
+    
 }
 
-.
+.direct-title{
+    font-size: 2.2rem;
+    margin-top: -5%;
+}
 
 .direct-description{
     font-weight: 400px;
-    font-size: 1rem;
-    margin-left: 10%;
+    font-size: 14px
 }
 .btn-primary{
     font-weight: 600px;
@@ -131,14 +179,16 @@ main{
    background-color:#E6533C;
    color: #E6533C;
     border-radius: 50px;
-    margin-top: 6px;
-
+    margin-top: -5px;
+    margin-right: 5%;
 }
+
+
 .banneer-img{
-    width: 349px;
-    height: 580px;
-    margin-left: 70%;
-    margin-top: -43%;  
+    width: 359px;
+    height: 590px;
+    margin-left: 73%;
+    margin-top: -40%;  
 }
 .banner-img{
     width: 100%;
@@ -420,7 +470,7 @@ td, th{
 .central {
     width: 1059px;
     height: 249px;
-    justify-content: space-around;
+    justify-content: center;
     margin: 66px 190px 174px 190px;
     margin-top: 66px;
     align-items: center;
@@ -466,5 +516,4 @@ td, th{
 .hide{
     display: none;
 }
-
 }
