@@ -7,23 +7,15 @@
   font-weight: 400px;
   font-style: normal;
 }
-
+/*heder styles*/
+.header{
+    max-width: 1440px;
+    max-height: 715px;
+    
+}
 /*shared styles*/
 .display-flex{
     display: flex;
-}
-
-/*navber related styles*/
-.navber{
-    max-width: 1060px;
-    max-height: 581px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 53px;
-}
-
-.deop-shedow{
-    color: ;
 }
 
 .text-white{
@@ -39,14 +31,35 @@ main{
 .bg-light{
     background-color: #000000;
 }
+/*navber related styles*/
+
+.navber{
+border: 2px solid #000000;
+ max-width: 1060px;
+ max-height: 54px;
+ align-items: center;
+ justify-content: space-between;
+
+}
+.brand{
+    font-weight: 800px;
+    font-size: 2rem;
+    color: #E6533C;
+}
+.nav-links {
+    border: 2px solid #000000;
+    width: 471px;
+    height: 54px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
 .nav-item{
     font-weight: 400px;
     font-size: 1rem;
-    list-style: none;
-    margin-right: 47px;
-    margin-top: 20px;
-}
-.nav-link{
+    gap: 47px;
     text-decoration: none;
     font-weight: 400px;
     font-size: 1.2rem;
@@ -59,10 +72,10 @@ main{
 }
 .blog{
     font-weight: 600px;
-    font-size: 1.2rem;
-    padding: 4px 20px;
+    font-size: 1rem;
     background-color: #E6533C;
     color: #FFFFFF;
+    border-radius: 46px;
     padding: 8px 20px;
     border-radius: 39px;
     margin-top: -10px;
@@ -74,129 +87,123 @@ main{
 
 /*banner related styles*/
 .banner{
-    width:100%;
-
+    width:1060px;
+    height: 580px;
+    justify-content: center;justify-content: space-between;
+    
+}
+.advertise{
+   display: flex;
+   align-items:center;
+   justify-content: right;
+   margin-left: 60%;
+   width: 193px;
+   height: : 111px;
+    
+}
+.advertise{
+    
+    display: grid;
+    margin-left: 70%;
+ 
 }
 .banner-content{
-    max-width: 40%; 
-    margin-bottom: 50px;
-    margin-top: 87px;
-}
-.banner-title{
-    font-size: 5.8rem;
+    justify-content: center;
+    width: 1060px 
+    
 }
 
+
+.banner-title{
+    font-size: 5.8rem;
+    width: 520px;
+    height: 282px;
+}
+.advertise{
+    border: 2px solid #222222a8;
+    width: 198px;
+    height: 111px;
+    border-radius: 12px;
+    padding: 20px 30px;
+    background-color: hsl(0, 4%, 48%);
+    color: #FFFFFF;
+    margin-left: 170%;
+    margin-top: -70%;
+    text-align: center;
+   
+}
+.advertise-title{
+    display: block;
+    text-align: center;
+    margin-top: -2%;
+    margin-right: 4%;
+}
 .banner-description {
     font-weight: 400px;
     font-size: 1.2rem;
     margin-top: 28px;
+    width: 520px;
+    height: 48px;
 }
 
-.advertise{
-    text-align: left;
-    max-width: 193px;
-    max-height: 111px;
-    font-size: 2.1rem;
-    border: 2px solid #686868;
-    margin-left: 200%;
-    background-color: #8a8a8a;
-    margin-top: -190%;
-    margin-right: 240%;
-}
-.advertise-title{
-    width: 116px;
-    height: 111px;
-    color: #FFFFFF;
-    border-radius: 12px;
-    margin-top: -180%;
-    margin-right: 270%;
-    border: 2px solid #686868;
-    width: 190px;
-    height: 130px;
-    background-color: #686868;
-    margin-left: 70%;
-    border-radius: 12px;
-    text-align: left;
-    gap: 10px;
-}
-.advertise-description{
-    display: flex;
-    border: 2px solid #000000;
-    font-weight: 400px;
-    font-size: 1rem;
-    color: #ffffff;
-    margin-left: 223%;
-    background-color: #000000;
-    width: 200px;
-    height: 300px;
-    margin-top: -43%;
-    
-}
-.direct{
-    justify-content: space-between;
-    filter: drop-shadow(rgba(119, 119, 119, 0.56));
-    border: 2px solid #222222
-    border-width: 40px;
-    background-color: rgba(119, 119, 119, 0.56);
-    width: 206px;
-    height: 100px;
-    border-radius: 12px;
-    list-style: none;
-    text-align: center;
-    margin-left: 155%;
-    font-size: 1.5rem;
-    margin-top:-330%
-    
+.banneer-img{
+    width: 349px;
+    height: 580px;
+    margin-left: 15%;
+    margin-right: auto;
+     
 }
 
-.direct-title{
-    font-size: 2.2rem;
-    margin-top: -5%;
-}
-
-.direct-description{
-    font-weight: 400px;
-    font-size: 14px
-}
 .btn-primary{
     font-weight: 600px;
-    font-size: 1.2rem;
-    padding: 16px 40px;
-    border-radius: 42px;
+    font-size: 1.1rem;
+    width: 211px;
+    height: 54px;
     background-color: #E6533C;
     color: #FFFFFF;
     padding: 16px 40px;
-    margin-top: 28px;
+    border-radius: 42px;
+    margin-top: 50%;
 }
 .btn-secondary{
     font-weight: 600px;
-    font-size: 1.2rem;
-    border-radius: 42px;
-    padding: 16px 40px;
-    background-color: #000000;
+    font-size: 1.1rem;
+    width: 224px;
+    height: 54px;
     color: #FFFFFF;
-    background-color: rgba(0, 0, 0, 0.25);
+    padding: 16px 40px;
+    border-radius: 42px;
+    filter: drop-shadow(#FFFFFF);
+    background-color: #000000
 }
+
 .extra{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-   background-color:#E6533C;
-   color: #E6533C;
-    border-radius: 50px;
-    margin-top: -5px;
-    margin-right: 5%;
-}
+    border: 2px solid #E6533C;
+    background-color: #E6533C;
+    width: 20%;
+    height:40%;
+    border-radius: 60%;
+    color: #E6533C;
 
-
-.banneer-img{
-    width: 359px;
-    height: 590px;
-    margin-left: 73%;
-    margin-top: -40%;  
 }
-.banner-img{
-    width: 100%;
+.direct{
+    width: 216px;
+    height: 96px;
+    background-color: #636363;
+    border: 2px solid #636363;
+    border-radius: 12px;
+    margin-top: -150%;
+    margin-left: 100%;
+    margin-top:-50%;
+}
+.direct-title{
+    font-size: 1.2rem;
+    margin-top: -30%;
+}
+.direct-description{
+    font-weight: 400px;
+    font-size: 1rem;
+    margin-top: -30%;
 }
 
 /*teams related styles*/
@@ -511,17 +518,16 @@ td, th{
 }
 /*responsive media query*/
 @media screen and (max-width: 576px) {
-    .navber, .banner-img, .teams-img, .nav-links{
-        flex-direction: column;
-}
-
-.our-features{
-    flex-direction: column;
-}
-.feature-img{
-    grid-template-columns: repeat(1, 1fr);
-}
-.hide{
+   .hide{
     display: none;
-}
+   }
+   .naver{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+   }
+   .banner{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   }
 }
