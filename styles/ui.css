@@ -6,6 +6,7 @@
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
+  background-color: #000000;
 }
 /*shared styles*/
 .display-flex{
@@ -31,10 +32,10 @@
 /*heder styles*/
 .header{
     background-image: url('../images/Images 2.png');
-    background-color: rgba(17, 17, 17, 1.00);
     background-repeat: no-repeat;
     background-position: right;
     margin-right: 10%;
+    width: 100%;
 
 } 
 /*Nevber styles*/
@@ -141,10 +142,8 @@
 .direct{
     width: 198px;
     height: 98px;
-    border: 2px solid #252424;
     border-radius: 12px;
     list-style: none;
-  background-color: #222222;
   margin-top: 12%;
   text-align: right;
   align-items: center;
@@ -192,10 +191,9 @@
     height: 98px;
     border-radius: 12px;
     padding: 20px 30px;
-    background-color: #222222;
     text-align: left;
     justify-content: space-around;
-    margin-left: 15%;
+    
     margin-top: -10%;
     
 }
@@ -502,6 +500,12 @@
     .professional,
     .fitness{
         flex-direction: column;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        gap: 10px;
     }
 .hide{
  display: none;
