@@ -34,6 +34,7 @@
     background-color: rgba(17, 17, 17, 1.00);
     background-repeat: no-repeat;
     background-position: right;
+    margin-right: 10%;
 
 } 
 /*Nevber styles*/
@@ -81,8 +82,8 @@
 }
 /*banner related styles*/
 .banner{
-    width: 1440px;
-    height: 715px;
+    width: 1060px;
+    height: 580px;
     gap: 0px;
     opacity: 0px;
     justify-content: space-between;
@@ -139,7 +140,7 @@
 }
 .direct{
     width: 198px;
-    height: 96px;
+    height: 98px;
     border: 2px solid #252424;
     border-radius: 12px;
     list-style: none;
@@ -148,8 +149,8 @@
   text-align: right;
   align-items: center;
   list-style: none;
-  margin-right:7%; 
-  margin-top: 17%;
+  margin-left:10%; 
+  margin-top: 20%;
 
 }
 
@@ -194,7 +195,7 @@
     background-color: #222222;
     text-align: left;
     justify-content: space-around;
-    margin-right: 15%;
+    margin-left: 15%;
     margin-top: -10%;
     
 }
