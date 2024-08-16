@@ -344,6 +344,8 @@ gap: 14px;
     gap: 14px;
     opacity: 0px;
     margin-left: 1%;
+    text-align: center;
+    align-items: center;
     
 }
 
@@ -353,6 +355,7 @@ gap: 14px;
 height: 58px;
 gap: 0px;
 opacity: 0px;
+margin-left: 33%;
 
 }
 
@@ -380,6 +383,7 @@ opacity: 0px;
 .ourteam {
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
 .contener-img {
