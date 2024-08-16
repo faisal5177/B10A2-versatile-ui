@@ -364,10 +364,6 @@ margin-left: 33%;
     font-size: 0.875;
     width: 671px;
 height: 48px;
-gap: 0px;
-opacity: 0px;
-
-
 }
 
 .contener {
@@ -423,8 +419,8 @@ opacity: 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    width: Hug (1, 059px)px;
-    height: Hug (249px)px;
+    width: 1, 059px;
+    height: 249px;
     top: 66px;
     left: 190px;
     gap: 102px;
@@ -437,8 +433,8 @@ opacity: 0px;
 }
 
 .fitnes {
-    width: Hug (1, 059px)px;
-    height: Hug (249px)px;
+    width: 1, 059px;
+    height: 249px;
     top: 66px;
     left: 190px;
     gap: 102px;
@@ -452,7 +448,6 @@ opacity: 0px;
     font-weight: 800px;
     font-size: 4.375;
     color: #E6533C;
-    m
 }
 
 .fitnes-description {
@@ -463,8 +458,8 @@ opacity: 0px;
 
 }
 .backup{
-    width: Hug (514px)px;
-height: Hug (249px)px;
+    width: 514px;
+height: 249px;
 gap: 152px;
 opacity: 0px;
 list-style: none;
@@ -474,8 +469,8 @@ align-items: center;
 }
 
 .about {
-    width: Hug (181px)px;
-    height: Hug (249px)px;
+    width: 181px;
+    height: 249px;
     gap: 39px;
     opacity: 0px;
     
@@ -484,8 +479,8 @@ align-items: center;
 }
 
 .about-content {
-    width: Fill (181px)px;
-    height: Hug (172px)px;
+    width: 181px;
+    height: 172px;
     opacity: 0px;
     gap: 20px;
     list-style: none;
@@ -493,8 +488,8 @@ align-items: center;
 }
 
 .about-title {
-    width: Fill (181px)px;
-    height: Hug (172px)px;
+    width: 181px;
+    height: 172px;
     opacity: 0px;
     gap: 20px;
 
@@ -508,8 +503,8 @@ align-items: center;
 }
 
 .platform {
-    width: Hug (181px)px;
-    height: Hug (249px)px;
+    width: 181px;
+    height: 249px;
     gap: 39px;
     opacity: 0px;
     margin-left: 5%;
@@ -517,8 +512,8 @@ align-items: center;
 }
 
 .platform-content {
-    width: Fixed (165px)px;
-    height: Hug (172px)px;
+    width: 165px;
+    height: 172px;
     gap: 20px;
     opacity: 0.5px;
     list-style: none;
