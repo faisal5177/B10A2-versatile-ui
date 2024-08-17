@@ -34,6 +34,9 @@
 .bg-light {
     background-color: #000000;
 }
+.show{
+    display: none;
+}
 
 /*heder styles*/
 .header{
@@ -465,6 +468,7 @@ opacity: 0px;
 list-style: none;
 text-align: left;
 align-items: center;
+align-content: center;
 
 }
 
@@ -473,25 +477,24 @@ align-items: center;
     height: 249px;
     gap: 39px;
     opacity: 0px;
-    
-
-
+    margin-left: 5%;
+   
 }
 
 .about-content {
-    width: 181px;
+    width: 165px;
     height: 172px;
-    opacity: 0px;
     gap: 20px;
+    opacity: 0.5px;
     list-style: none;
-    align-items: center;
 }
 
 .about-title {
     width: 181px;
-    height: 172px;
+    height: 38px;
+    gap: 0px;
     opacity: 0px;
-    gap: 20px;
+    
 
 
 }
@@ -499,7 +502,6 @@ align-items: center;
 .about-description {
     width: 182px;
     height: 28px;
-
 }
 
 .platform {
@@ -587,8 +589,12 @@ align-items: center;
     .fitness {
         flex-direction: column;
     }
+    .show{
+        display: grid;
+    }
 
     .header {
+        background-image: none;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -702,7 +708,7 @@ align-items: center;
     }
 
     .teams {
-        margin-top: -50%;
+        
         background-color: #000000;
     }
 
